@@ -4,8 +4,11 @@
 export ULTIMATE_ANSWER=42
 
 get_commands() {
-  echo "being_curious=asking_questions"
-  echo "ultimate_question=ultimate_answer"
+  local commands=( \ 
+    "being_curious=asking_questions" \ 
+    "ultimate_question=ultimate_answer" \ 
+  )
+  echo "${commands[@]}"
 }
 
 asking_questions() {
