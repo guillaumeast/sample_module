@@ -22,5 +22,5 @@ Clone or reference this module in your own module's `tools.json` file
 or just add it with `GACLI`:
 
 ```bash
-gacli add sample_module
+gacli install sample_module
 ```
